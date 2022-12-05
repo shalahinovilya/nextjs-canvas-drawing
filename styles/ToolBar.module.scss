@@ -1,0 +1,56 @@
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 999;
+  background: #F8F8F8;
+  height: 50px;
+  width: 100%;
+  box-shadow: 0 10px 20px 0 grey;
+}
+
+.left-tools {
+  display: flex;
+  align-items: center;
+}
+
+
+.left-tools__item {
+  height: 40px;
+  width: 40px;
+  margin-left: 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: inherit;
+  background-size: cover;
+
+}
+
+.brush {background-image: url('../public/images/brush.png');}
+.rect {background-image: url('../public/images/rect.png');}
+.circle {background-image: url('../public/images/circle.png');}
+.eraser {background-image: url('../public/images/eraser.png');}
+.line {background-image: url('../public/images/line.png');}
+.colors {background-image: url('../public/images/colors.png');}
+
+
+.right-tools {
+  display: flex;
+  align-items: center;
+}
+
+.right-tools__item {
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: inherit;
+  background-size: cover;
+}
+
+.undo {background-image: url('../public/images/undo.png');}
+.redo {background-image: url('../public/images/redo.png');}
